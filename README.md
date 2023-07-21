@@ -27,7 +27,7 @@ Key Accomplishments:
 
 <strong>Continuous Integration and Continuous Deployment (CI/CD):</strong> By implementing CI/CD pipelines, I automated the testing and deployment processes, significantly reducing development cycle time. Continuous integration ensured smooth code integration and validation, while continuous deployment allowed for seamless model updates and enhancements.
 
-<strong>Dockerization: To enable consistent deployment across different environments, I containerized the entire application using Docker. This ensured that the model and all dependencies were encapsulated, guaranteeing reproducibility and portability.
+<strong>Dockerization:</strong> To enable consistent deployment across different environments, I containerized the entire application using Docker. This ensured that the model and all dependencies were encapsulated, guaranteeing reproducibility and portability.
 
 <strong>Deployment and API Development:</strong> The final model was deployed on a cloud-based platform, making it easily accessible for real-time inference. I developed a user-friendly API to allow external systems to interact with the model, enabling poultry farmers and veterinarians to diagnose chicken diseases conveniently.
 
