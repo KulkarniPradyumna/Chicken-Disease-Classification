@@ -33,13 +33,13 @@ Key Accomplishments:
 
 <strong>Technologies Used:</strong>
 
-Python
-TensorFlow and Keras
-YAML configuration
-DVC (Data Version Control)
-Docker
-Cloud Services (e.g., AWS, Azure, Google Cloud)
-API Development (e.g., Flask)
+Python<br>
+TensorFlow and Keras<br>
+YAML configuration<br>
+DVC (Data Version Control)<br>
+Docker<br>
+Cloud Services (AWS, Azure)<br>
+API Development (Flask)<br>
 
 The chicken disease classification project exemplifies my proficiency in leveraging cutting-edge technologies, modular coding practices, efficient data version control, and deployment strategies to create practical solutions in the field of data-driven agriculture. The project's success in achieving high accuracy and seamless deployment highlights my expertise in developing end-to-end machine learning applications.
 
