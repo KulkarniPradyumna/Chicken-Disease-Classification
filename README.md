@@ -17,21 +17,21 @@ In this project, I developed a robust and scalable chicken disease classificatio
 
 Key Accomplishments:
 
-CNN Algorithm Implementation: Leveraging the power of deep learning, I designed and implemented a CNN architecture to perform image classification. The model was trained on a diverse dataset of chicken disease images, achieving an impressive accuracy of [mention accuracy percentage].
+<strong>CNN Algorithm Implementation: </strong>Leveraging the power of deep learning, I designed and implemented a CNN architecture to perform image classification. The model was trained on a diverse dataset of chicken disease images, achieving an impressive accuracy of [mention accuracy percentage].
 
-Modular Coding and YAML Files: To ensure maintainability and scalability, I adopted a modular coding approach. The project was organized into reusable and independent modules, enhancing code readability and simplifying future enhancements. Additionally, I utilized YAML files for streamlined configuration management, making it easy to update model parameters and hyperparameters.
+<strong>Modular Coding and YAML Files:</strong> To ensure maintainability and scalability, I adopted a modular coding approach. The project was organized into reusable and independent modules, enhancing code readability and simplifying future enhancements. Additionally, I utilized YAML files for streamlined configuration management, making it easy to update model parameters and hyperparameters.
 
-DVC for Data Version Control: Managing large-scale datasets is crucial in machine learning projects. To maintain a clean and version-controlled dataset, I integrated DVC into the project workflow. DVC allowed us to efficiently track changes to the dataset, collaborate with team members, and ensure reproducibility in data preparation.
+<strong>DVC for Data Version Control:</strong> Managing large-scale datasets is crucial in machine learning projects. To maintain a clean and version-controlled dataset, I integrated DVC into the project workflow. DVC allowed us to efficiently track changes to the dataset, collaborate with team members, and ensure reproducibility in data preparation.
 
-Pipeline Development: I established an end-to-end data pipeline to facilitate seamless data flow from data preprocessing to model training and evaluation. The pipeline efficiently handled data augmentation, normalization, and batch processing, contributing to improved model generalization.
+<strong>Pipeline Development:</strong> I established an end-to-end data pipeline to facilitate seamless data flow from data preprocessing to model training and evaluation. The pipeline efficiently handled data augmentation, normalization, and batch processing, contributing to improved model generalization.
 
-Continuous Integration and Continuous Deployment (CI/CD): By implementing CI/CD pipelines, I automated the testing and deployment processes, significantly reducing development cycle time. Continuous integration ensured smooth code integration and validation, while continuous deployment allowed for seamless model updates and enhancements.
+<strong>Continuous Integration and Continuous Deployment (CI/CD):</strong> By implementing CI/CD pipelines, I automated the testing and deployment processes, significantly reducing development cycle time. Continuous integration ensured smooth code integration and validation, while continuous deployment allowed for seamless model updates and enhancements.
 
-Dockerization: To enable consistent deployment across different environments, I containerized the entire application using Docker. This ensured that the model and all dependencies were encapsulated, guaranteeing reproducibility and portability.
+<strong>Dockerization: To enable consistent deployment across different environments, I containerized the entire application using Docker. This ensured that the model and all dependencies were encapsulated, guaranteeing reproducibility and portability.
 
-Deployment and API Development: The final model was deployed on a cloud-based platform, making it easily accessible for real-time inference. I developed a user-friendly API to allow external systems to interact with the model, enabling poultry farmers and veterinarians to diagnose chicken diseases conveniently.
+<strong>Deployment and API Development:</strong> The final model was deployed on a cloud-based platform, making it easily accessible for real-time inference. I developed a user-friendly API to allow external systems to interact with the model, enabling poultry farmers and veterinarians to diagnose chicken diseases conveniently.
 
-Technologies Used:
+<strong>Technologies Used:</strong>
 
 Python
 TensorFlow and Keras
