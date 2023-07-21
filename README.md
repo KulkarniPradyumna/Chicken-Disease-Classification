@@ -33,13 +33,13 @@ Key Accomplishments:
 
 <strong>Technologies Used:</strong>
 
-Python<br>
-TensorFlow and Keras<br>
-YAML configuration<br>
-DVC (Data Version Control)<br>
-Docker<br>
-Cloud Services (AWS, Azure)<br>
-API Development (Flask)<br>
+1. Python<br>
+2. TensorFlow and Keras<br>
+3. YAML configuration<br>
+4. DVC (Data Version Control)<br>
+5. Docker<br>
+6. Cloud Services (AWS, Azure)<br>
+7. API Development (Flask)<br>
 
 The chicken disease classification project exemplifies my proficiency in leveraging cutting-edge technologies, modular coding practices, efficient data version control, and deployment strategies to create practical solutions in the field of data-driven agriculture. The project's success in achieving high accuracy and seamless deployment highlights my expertise in developing end-to-end machine learning applications.
 
@@ -55,11 +55,11 @@ https://github.com/entbappy/Chicken-Disease-Classification--Project
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n chickenenv python=3.8 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate chickenenv
 ```
 
 
