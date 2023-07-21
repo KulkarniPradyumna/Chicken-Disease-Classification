@@ -13,6 +13,36 @@
 8. Update the main.py
 9. Update the dvc.yaml
 
+In this project, I developed a robust and scalable chicken disease classification system using Convolutional Neural Networks (CNNs). The goal was to accurately identify various diseases in chickens based on images, enabling early detection and prompt intervention for better farm management.
+
+Key Accomplishments:
+
+CNN Algorithm Implementation: Leveraging the power of deep learning, I designed and implemented a CNN architecture to perform image classification. The model was trained on a diverse dataset of chicken disease images, achieving an impressive accuracy of [mention accuracy percentage].
+
+Modular Coding and YAML Files: To ensure maintainability and scalability, I adopted a modular coding approach. The project was organized into reusable and independent modules, enhancing code readability and simplifying future enhancements. Additionally, I utilized YAML files for streamlined configuration management, making it easy to update model parameters and hyperparameters.
+
+DVC for Data Version Control: Managing large-scale datasets is crucial in machine learning projects. To maintain a clean and version-controlled dataset, I integrated DVC into the project workflow. DVC allowed us to efficiently track changes to the dataset, collaborate with team members, and ensure reproducibility in data preparation.
+
+Pipeline Development: I established an end-to-end data pipeline to facilitate seamless data flow from data preprocessing to model training and evaluation. The pipeline efficiently handled data augmentation, normalization, and batch processing, contributing to improved model generalization.
+
+Continuous Integration and Continuous Deployment (CI/CD): By implementing CI/CD pipelines, I automated the testing and deployment processes, significantly reducing development cycle time. Continuous integration ensured smooth code integration and validation, while continuous deployment allowed for seamless model updates and enhancements.
+
+Dockerization: To enable consistent deployment across different environments, I containerized the entire application using Docker. This ensured that the model and all dependencies were encapsulated, guaranteeing reproducibility and portability.
+
+Deployment and API Development: The final model was deployed on a cloud-based platform, making it easily accessible for real-time inference. I developed a user-friendly API to allow external systems to interact with the model, enabling poultry farmers and veterinarians to diagnose chicken diseases conveniently.
+
+Technologies Used:
+
+Python
+TensorFlow and Keras
+YAML configuration
+DVC (Data Version Control)
+Docker
+Cloud Services (e.g., AWS, Azure, Google Cloud)
+API Development (e.g., Flask)
+
+The chicken disease classification project exemplifies my proficiency in leveraging cutting-edge technologies, modular coding practices, efficient data version control, and deployment strategies to create practical solutions in the field of data-driven agriculture. The project's success in achieving high accuracy and seamless deployment highlights my expertise in developing end-to-end machine learning applications.
+
 
 # How to run?
 ### STEPS:
@@ -58,101 +88,4 @@ open up you local host and port
 
 
 
-# AWS-CICD-Deployment-with-Github-Actions
 
-## 1. Login to AWS console.
-
-## 2. Create IAM user for deployment
-
-	#with specific access
-
-	1. EC2 access : It is virtual machine
-
-	2. ECR: Elastic Container registry to save your docker image in aws
-
-
-	#Description: About the deployment
-
-	1. Build docker image of the source code
-
-	2. Push your docker image to ECR
-
-	3. Launch Your EC2 
-
-	4. Pull Your image from ECR in EC2
-
-	5. Lauch your docker image in EC2
-
-	#Policy:
-
-	1. AmazonEC2ContainerRegistryFullAccess
-
-	2. AmazonEC2FullAccess
-
-	
-## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
-
-	
-## 4. Create EC2 machine (Ubuntu) 
-
-## 5. Open EC2 and Install docker in EC2 Machine:
-	
-	
-	#optinal
-
-	sudo apt-get update -y
-
-	sudo apt-get upgrade
-	
-	#required
-
-	curl -fsSL https://get.docker.com -o get-docker.sh
-
-	sudo sh get-docker.sh
-
-	sudo usermod -aG docker ubuntu
-
-	newgrp docker
-	
-# 6. Configure EC2 as self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
-
-
-# 7. Setup github secrets:
-
-    AWS_ACCESS_KEY_ID=
-
-    AWS_SECRET_ACCESS_KEY=
-
-    AWS_REGION = us-east-1
-
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
-
-    ECR_REPOSITORY_NAME = simple-app
-
-
-
-
-# AZURE-CICD-Deployment-with-Github-Actions
-
-## Save pass:
-
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
-
-
-## Run from terminal:
-
-docker build -t chickenapp.azurecr.io/chicken:latest .
-
-docker login chickenapp.azurecr.io
-
-docker push chickenapp.azurecr.io/chicken:latest
-
-
-## Deployment Steps:
-
-1. Build the Docker image of the Source Code
-2. Push the Docker image to Container Registry
-3. Launch the Web App Server in Azure 
-4. Pull the Docker image from the container registry to Web App server and run 
